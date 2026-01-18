@@ -52,21 +52,21 @@ archives:
     ids: [windows]
     formats: [zip]
 
-homebrew_casks:
-  - name: actionlint
-    directory: Casks
-    binaries: [actionlint]
-    manpages: [man/actionlint.1]
-    homepage: https://github.com/rhysd/actionlint#readme
-    description: Static checker for GitHub Actions workflow files
-    dependencies:
-      - formula: shellcheck
-    repository:
-      owner: rhysd
-      name: actionlint
-    commit_author:
-      name: 'github-actions[bot]'
-      email: '41898282+github-actions[bot]@users.noreply.github.com'
+# homebrew_casks:
+#   - name: actionlint
+#     directory: Casks
+#     binaries: [actionlint]
+#     manpages: [man/actionlint.1]
+#     homepage: https://github.com/rhysd/actionlint#readme
+#     description: Static checker for GitHub Actions workflow files
+#     dependencies:
+#       - formula: shellcheck
+#     repository:
+#       owner: rhysd
+#       name: actionlint
+#     commit_author:
+#       name: 'github-actions[bot]'
+#       email: '41898282+github-actions[bot]@users.noreply.github.com'
 
 changelog:
   disable: true
